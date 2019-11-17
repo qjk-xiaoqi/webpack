@@ -1,0 +1,6 @@
+:root {
+    --red: #d33;
+}
+#app  {
+    color: var(--red);
+}

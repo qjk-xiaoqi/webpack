@@ -1,0 +1,7 @@
+{
+    // flow项目一般使用es6语法，使用Babel将flow集成到webpack项目。在presets中添加 flow
+    "presets": [
+        "env",
+        "flow"
+    ]
+}
