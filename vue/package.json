@@ -1,0 +1,24 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.2.0",
+    "vue-loader": "^15.7.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
