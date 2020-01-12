@@ -1,0 +1,20 @@
+{
+    "presets": [
+        "env",
+        "react"
+    ],
+    "plugins": [
+        [        
+        "transform-runtime",
+        {
+            /*transform-runtime 默认会自动为我们使用es6 API注入polyfill ,
+             假如我们在源码中使用了Promise，则输出的代码将会自动注入require('babel-runtime/core-js/Promise')语句,
+             polyfill的注入应该交给模块的使用者，因为使用者可能在其他地方注入了其他Promise Polyfill库，所以关闭这个功能
+             */
+             "polyfill": false
+
+             // 加入babel-plugin-transform-runtime后，需要与babel-runtime一起配合使用
+        }
+        ]
+    ]
+}

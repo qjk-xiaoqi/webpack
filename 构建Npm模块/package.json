@@ -1,0 +1,30 @@
+{
+  "name": "mokuai",
+  "version": "1.0.0",
+  "description": "",
+  // 构建出的代码入口文件是:"./lib/index.js",将代码发到Npm仓库前，需要修改main字段
+  "main": "./src/index.js",
+  // jsnext:main字段用于指出ES6编写的模块入口所在的位置
+   "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "pub": "npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.2"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "react": "^16.12.0",
+    "webpack": "^4.41.5"
+  }
+}
